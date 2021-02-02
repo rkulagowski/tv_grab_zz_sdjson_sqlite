@@ -5365,10 +5365,10 @@ sub manageLineups
 
             my $storehash = ask_boolean(
                               "\n" .
-                              "*WARNING* While your password is stored as a sha1 hash,\n" .
+                              "*WARNING* While your password is stored as a SHA-1 hash,\n" .
                               "(i.e. the actual password is not stored in the database)\n" .
-                              "the sha1 hash can be used to update your schedules direct\n" .
-                              "lineup information, and since the sha1 hash is unsalted,\n" .
+                              "the SHA-1 hash can be used to update your Schedules Direct\n" .
+                              "lineup information, and since the SHA-1 hash is unsalted,\n" .
                               "a poor password can easily be brute forced (or more likely\n" .
                               "found in an existing online rainbow table).  Ensure that\n" .
                               "your database is appropriately protected.  Note that it is\n" .
